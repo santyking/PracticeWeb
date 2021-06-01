@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="forms">
+    <meta name="description" content="forms">
+    <meta name="robots" content="INDEX, FOLLOW">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Forms</h1>
+    <hr>
+    <form action="submit.php">
+        <div>
+            <div><label for="myName">Name:</label><input type="text" id="myName" name="myName" required></div>
+            <div>E-mail: <input type="email" name="myMail" required></div>
+            <div>Slot: <input type="number" name="mySlot" min="1" max="4"></div>
+            <div>Date: <input type="date" name="myDate"></div>
+            <div>Agree <input type="checkbox" name="myAgree" checked></div>
+            <div>Gender: <input type="radio" name="myMale">Male
+            <input type="radio" name="myFemale" checked>Female</div>
+            <button type="submit">Go</button>
+            <button type="reset">Clear</button>
+        </div>
+    </form>
+</body>
+</html>

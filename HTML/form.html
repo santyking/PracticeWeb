@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Forms">
+    <meta name="description" content="Forms page">
+    <meta name="robots" content="INDEX, FOLLOW">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="submit.php">
+        <div>
+            <div>User id: <input type="text" name="myUserid" required></div>
+            <div>Password: <input type="password" name="myPassword"></div>
+            <div>Email id: <input type="email" name="myEmail"></div>
+            <div>Date: <input type="date" name="myDate"></div>
+            <div>Contact: <input type="number" name="myNumber" max="4" min="1"></div>
+            <div>Agree: <input type="checkbox" name="myAgree" checked></div>
+            <div>Gender: <input type="radio" name="myMale">Male
+                <input type="radio" name="myMale" checked>Female
+            </div>
+            <div>About: <textarea name="myAbout" cols="30" rows="10"></textarea></div>
+            <div>
+                <button type="submit">Submit Now</button>
+                <button type="reset">Clear</button>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
