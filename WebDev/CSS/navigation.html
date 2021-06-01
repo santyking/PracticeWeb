@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation practice</title>
+    <style>
+        *
+        {
+            margin: 0;
+        }
+        .navbar
+        {
+            background-color: teal;
+        }
+        .navbar ul
+        {
+            overflow: auto;
+        }
+        .navbar li
+        {
+            list-style: none;
+            float: left;
+            padding: 10px;
+        }
+        .navbar li:hover
+        {
+            background-color: yellowgreen;
+            color: whitesmoke;
+        }
+        .navbar li a
+        {
+            text-decoration: none;
+            color: white;
+        }
+        .search
+        {
+            border-radius: 10px;
+            border-style: none;
+            float: right;
+            margin-right: 10px;
+            margin-top: 5px;
+            padding-left: 8px;
+        }
+        .search:focus
+        {
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <div class="search">
+                    <input type="text" class="search" autocomplete="off">
+                </div>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
