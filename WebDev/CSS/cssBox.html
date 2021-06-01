@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="CSS BOX">
+    <meta name="description" content="CSS BOX MOdels">
+    <meta name="robots" content="INDEX, FOLLOW">
+    <title>CSS Box Models</title>
+    <style>
+        .paragraph
+        {
+            /* ye thi aam jindagi */
+            /* border: 10px solid violet;
+            width: 240px;
+            padding: 10px;
+            margin: 10px; */
+            /* ab mentos jindagi */
+            border: 10px solid violet;
+            /* syntax top right bottom left */
+            padding: 10px 20px 30px 40px;
+            /* syntax y axis x axis */
+            margin: 10px 30px;
+            width: 400px;
+            /* this restricts the changing of box width even if padding etc is increased */
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <h3 class="heading">Lorem, ipsum dolor.</h3>
+    <p class="paragraph">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, sit.
+    </p>
+    <p class="paragraph">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, sit.
+    </p>
+</body>
+</html>

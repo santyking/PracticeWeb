@@ -1,0 +1,33 @@
+*
+{
+    box-sizing: border-box;
+}
+.container
+{
+    border: 3px solid rgb(36, 103, 170);
+    width: 900px;
+    /* height: 900px; */
+    margin: auto auto;
+    padding: 5px;
+}
+.item
+{
+    border: 3px solid tomato;
+    background-color: rgb(222, 219, 241);
+    margin-bottom: 5px;
+    padding: 5px;
+}
+#fruits
+{
+    width: 50%;
+    float: left;
+}
+#vegetables
+{
+    width: 50%;
+    float: left;
+}
+#oil
+{
+    clear: both;
+}

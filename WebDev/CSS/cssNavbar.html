@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Tutorial</title>
+    <style>
+        .navbar
+        {
+            background-color: black;
+            height: 40px;
+            border-radius: 50px;
+        }
+        .navbar ul
+        {
+            overflow: auto;
+        }
+        .navbar li
+        {
+            float: left;
+            list-style: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .navbar li a
+        {
+            text-decoration: none;
+            color:blanchedalmond;
+        }
+        .navbar li a:hover
+        {
+            color: yellow;
+        }
+        .navbar li a:active
+        {
+            color:rgb(0, 255, 0);
+        }
+        .navbar li:hover
+        {
+            background-color: red;
+            color: yellow;
+        }
+        .navbar ul #search
+        {
+            float: right;
+            padding: 7px;
+            margin: 10px;
+            height: 6px;
+            border-radius: 10px;
+            border-style: none;
+            margin-right: 20px;
+        }
+        .navbar ul #search:focus
+        {
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="https://www.google.com">Home</a></li>
+                <li><a href="https://www.google.com">About</a></li>
+                <li><a href="https://www.google.com">Services</a></li>
+                <li><a href="https://www.google.com">Contact Us</a></li>
+                <input type="text" name="search" id="search" autocomplete="off">
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
