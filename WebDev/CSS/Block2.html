@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Block elements</title>
+    <style>
+        *
+        {
+            margin: 0px;
+        }
+        .navbar
+        {
+            border: 1px solid springgreen;
+            width: 33%;
+            margin: 10px auto;
+        }
+        #Logo
+        {
+            display: block;
+            width: 36px;
+            height: 30px;
+            margin: 5px auto;
+        }
+        .navbar p
+        {
+            margin: 0px auto;
+            box-sizing: border-box;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+        .box
+        {
+            border: 2px solid steelblue;
+            width: 30%;
+            display: inline-block;
+        }
+        .container
+        {
+            margin: 5px auto;
+            width: 90%;
+            box-sizing: border-box;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <img src="https://us.123rf.com/450wm/lumut/lumut1511/lumut151100478/48141726-wave-template.jpg?ver=6" alt="Logo" id="Logo">
+            <p>Company Name</p>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="box">
+            <h3>Heading1</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate hic quis vel fuga pariatur, provident, minus enim nulla accusamus natus nemo id ipsam ex nihil alias mollitia labore et veniam odio laboriosam dignissimos cum esse, quia adipisci. Sint, ab dolor?</p>
+        </div>
+        <div class="box">
+            <h3>Heading2</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate hic quis vel fuga pariatur, provident, minus enim nulla accusamus natus nemo id ipsam ex nihil alias mollitia labore et veniam odio laboriosam dignissimos cum esse, quia adipisci. Sint, ab dolor?</p>
+        </div>
+        <div class="box">
+            <h3>Heading3</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate hic quis vel fuga pariatur, provident, minus enim nulla accusamus natus nemo id ipsam ex nihil alias mollitia labore et veniam odio laboriosam dignissimos cum esse, quia adipisci. Sint, ab dolor?</p>
+        </div>
+    </div>
+</body>
+</html>
