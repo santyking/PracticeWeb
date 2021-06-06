@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santosh Gym</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="left">
+            <img src="/img/dumbbell_black.png" id="logo" alt="Logo">
+            <div id="logoname">Santosh Gym</div>
+        </div>
+        <div class="center">
+            <div class="navbar">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <form action="submit.php">
+            <h3>Health is Wealth,Join us Now!</h3>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="Nameid">Enter your Name:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="Name" id="Nameid" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Emailid">Enter your Email id:</label>
+                        </td>
+                        <td>
+                            <input type="email" name="Email" id="Emailid" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Mobid">Enter your Mobile No. :</label>
+                        </td>
+                        <td>
+                            <input type="number" name="Mobile" id="Mobid" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Ageid">Enter your Age:</label>
+                        </td>
+                        <td>
+                            <input type="number" name="Age" id="Ageid" required max="120" min="0">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="genderid">Enter your Gender:</label>
+                        </td>
+                        <td id="genderid">
+                            <label for="Male">Male</label>
+                            <input type="radio" name="Gender" id="Male" value="Male">
+                            <label for="Female">Female</label>
+                            <input type="radio" name="Gender" id="Female" value="Female">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <button class="btns">Join Now</button>
+        </form>
+    </div>
+    <footer>
+        <div class="footer">
+            &phone; 9594193749
+        </div>
+    </footer>
+</body>
+</html>
